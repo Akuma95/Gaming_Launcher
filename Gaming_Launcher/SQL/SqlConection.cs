@@ -6,7 +6,7 @@ using System.Text;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace Toolbar
+namespace Gaming_Launcher.SQL
 {
     class SqlConection
     {
@@ -14,7 +14,7 @@ namespace Toolbar
         {
             get
             {
-                return (this._con == null) ? this.Open() : this._con;
+                return this._con ?? this.Open();
             }
         }
         private SqlConnection _con;

@@ -15,7 +15,7 @@
                 <Grid Background="#FFE5E5E5">
                     <DockPanel LastChildFill="False" Height="361" Margin="0,2,0,2">
                         <DockPanel Height="180" VerticalAlignment="Top" DockPanel.Dock="Top">
-                            <Button x:Name="btn_games_1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="btn_programm_click" Margin="5,5,5,5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FlowDirection="LeftToRight" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                            <Button x:Name="btn_games_1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Btn_programm_click" Margin="5,5,5,5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FlowDirection="LeftToRight" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
                                 <Button.OpacityMask>
                                     <ImageBrush/>
                                 </Button.OpacityMask>
@@ -25,7 +25,7 @@
                                     </Image.OpacityMask>
                                 </Image>
                             </Button>
-                            <Button x:Name="btn_games_2" Click="btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FlowDirection="LeftToRight" UseLayoutRounding="False" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                            <Button x:Name="btn_games_2" Click="Btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FlowDirection="LeftToRight" UseLayoutRounding="False" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
                                 <Button.OpacityMask>
                                     <ImageBrush/>
                                 </Button.OpacityMask>
@@ -35,7 +35,7 @@
                                     </Image.OpacityMask>
                                 </Image>
                             </Button>
-                            <Button x:Name="btn_games_3" Click="btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FlowDirection="LeftToRight" UseLayoutRounding="False" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                            <Button x:Name="btn_games_3" Click="Btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FlowDirection="LeftToRight" UseLayoutRounding="False" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
                                 <Button.OpacityMask>
                                     <ImageBrush/>
                                 </Button.OpacityMask>
@@ -45,7 +45,7 @@
                                     </Image.OpacityMask>
                                 </Image>
                             </Button>
-                            <Button x:Name="btn_games_4" Click="btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FlowDirection="LeftToRight" UseLayoutRounding="False" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                            <Button x:Name="btn_games_4" Click="Btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FlowDirection="LeftToRight" UseLayoutRounding="False" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
                                 <Button.OpacityMask>
                                     <ImageBrush/>
                                 </Button.OpacityMask>
@@ -57,7 +57,7 @@
                             </Button>
                         </DockPanel>
                         <DockPanel Height="180" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" DockPanel.Dock="Bottom">
-                            <Button x:Name="btn_games_5" Click="btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                            <Button x:Name="btn_games_5" Click="Btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
                                 <Button.OpacityMask>
                                     <ImageBrush/>
                                 </Button.OpacityMask>
@@ -67,7 +67,7 @@
                                     </Image.OpacityMask>
                                 </Image>
                             </Button>
-                            <Button x:Name="btn_games_6" Click="btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                            <Button x:Name="btn_games_6" Click="Btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
                                 <Button.OpacityMask>
                                     <ImageBrush/>
                                 </Button.OpacityMask>
@@ -77,7 +77,7 @@
                                     </Image.OpacityMask>
                                 </Image>
                             </Button>
-                            <Button x:Name="btn_games_7" Click="btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                            <Button x:Name="btn_games_7" Click="Btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
                                 <Button.OpacityMask>
                                     <ImageBrush/>
                                 </Button.OpacityMask>
@@ -87,7 +87,7 @@
                                     </Image.OpacityMask>
                                 </Image>
                             </Button>
-                            <Button x:Name="btn_games_8" Click="btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                            <Button x:Name="btn_games_8" Click="Btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
                                 <Button.OpacityMask>
                                     <ImageBrush/>
                                 </Button.OpacityMask>
@@ -108,7 +108,7 @@
                 <Grid Background="#FFE5E5E5">
                     <DockPanel LastChildFill="False" Height="361">
                         <DockPanel Height="180" VerticalAlignment="Top" DockPanel.Dock="Top">
-                            <Button x:Name="btn_programm_1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="btn_programm_click" Margin="5,5,5,5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FlowDirection="LeftToRight" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                            <Button x:Name="btn_programm_1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Btn_programm_click" Margin="5,5,5,5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FlowDirection="LeftToRight" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
                                 <Button.OpacityMask>
                                     <ImageBrush ImageSource="C:\Users\Akuma\source\repos\Gaming_Launcher\Gaming_Launcher\Assets\UCProgramme\Mask.png"/>
                                 </Button.OpacityMask>
@@ -118,7 +118,7 @@
                                     </Image.OpacityMask>
                                 </Image>
                             </Button>
-                            <Button x:Name="btn_programm_2" Click="btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FlowDirection="LeftToRight" UseLayoutRounding="False" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                            <Button x:Name="btn_programm_2" Click="Btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FlowDirection="LeftToRight" UseLayoutRounding="False" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
                                 <Button.OpacityMask>
                                     <ImageBrush ImageSource="C:\Users\Akuma\source\repos\Gaming_Launcher\Gaming_Launcher\Assets\UCProgramme\Mask.png"/>
                                 </Button.OpacityMask>
@@ -128,7 +128,7 @@
                                     </Image.OpacityMask>
                                 </Image>
                             </Button>
-                            <Button x:Name="btn_programm_3" Click="btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FlowDirection="LeftToRight" UseLayoutRounding="False" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                            <Button x:Name="btn_programm_3" Click="Btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FlowDirection="LeftToRight" UseLayoutRounding="False" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
                                 <Button.OpacityMask>
                                     <ImageBrush ImageSource="C:\Users\Akuma\source\repos\Gaming_Launcher\Gaming_Launcher\Assets\UCProgramme\Mask.png"/>
                                 </Button.OpacityMask>
@@ -138,7 +138,7 @@
                                     </Image.OpacityMask>
                                 </Image>
                             </Button>
-                            <Button x:Name="btn_programm_4" Click="btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FlowDirection="LeftToRight" UseLayoutRounding="False" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                            <Button x:Name="btn_programm_4" Click="Btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FlowDirection="LeftToRight" UseLayoutRounding="False" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
                                 <Button.OpacityMask>
                                     <ImageBrush ImageSource="C:\Users\Akuma\source\repos\Gaming_Launcher\Gaming_Launcher\Assets\UCProgramme\Mask.png"/>
                                 </Button.OpacityMask>
@@ -150,7 +150,7 @@
                             </Button>
                         </DockPanel>
                         <DockPanel Height="180" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" DockPanel.Dock="Bottom">
-                            <Button x:Name="btn_programm_5" Click="btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                            <Button x:Name="btn_programm_5" Click="Btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
                                 <Button.OpacityMask>
                                     <ImageBrush ImageSource="C:\Users\Akuma\source\repos\Gaming_Launcher\Gaming_Launcher\Assets\UCProgramme\Mask.png"/>
                                 </Button.OpacityMask>
@@ -160,7 +160,7 @@
                                     </Image.OpacityMask>
                                 </Image>
                             </Button>
-                            <Button x:Name="btn_programm_6" Click="btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                            <Button x:Name="btn_programm_6" Click="Btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
                                 <Button.OpacityMask>
                                     <ImageBrush ImageSource="C:\Users\Akuma\source\repos\Gaming_Launcher\Gaming_Launcher\Assets\UCProgramme\Mask.png"/>
                                 </Button.OpacityMask>
@@ -170,23 +170,23 @@
                                     </Image.OpacityMask>
                                 </Image>
                             </Button>
-                            <Button x:Name="btn_programm_7" Click="btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                            <Button x:Name="btn_programm_7" Click="Btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
                                 <Button.OpacityMask>
-                                    <ImageBrush ImageSource="/UserControll/Mask.png"/>
+                                    <ImageBrush ImageSource="C:\Users\Akuma\source\repos\Gaming_Launcher\Gaming_Launcher\Assets\UCProgramme\Mask.png"/>
                                 </Button.OpacityMask>
                                 <Image x:Name="img_programm_7" Height="170" Width="170" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
                                     <Image.OpacityMask>
-                                        <ImageBrush ImageSource="/UserControll/Mask.png"/>
+                                        <ImageBrush ImageSource="C:\Users\Akuma\source\repos\Gaming_Launcher\Gaming_Launcher\Assets\UCProgramme\Mask.png"/>
                                     </Image.OpacityMask>
                                 </Image>
                             </Button>
-                            <Button x:Name="btn_programm_8" Click="btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                            <Button x:Name="btn_programm_8" Click="Btn_programm_click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,5,5,5" Width="170" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
                                 <Button.OpacityMask>
-                                    <ImageBrush ImageSource="/UserControll/Mask.png"/>
+                                    <ImageBrush ImageSource="C:\Users\Akuma\source\repos\Gaming_Launcher\Gaming_Launcher\Assets\UCProgramme\Mask.png"/>
                                 </Button.OpacityMask>
                                 <Image x:Name="img_programm_8" Height="170" Width="170" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
                                     <Image.OpacityMask>
-                                        <ImageBrush ImageSource="/UserControll/Mask.png"/>
+                                        <ImageBrush ImageSource="C:\Users\Akuma\source\repos\Gaming_Launcher\Gaming_Launcher\Assets\UCProgramme\Mask.png"/>
                                     </Image.OpacityMask>
                                 </Image>
                             </Button>

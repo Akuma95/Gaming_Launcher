@@ -1,23 +1,11 @@
-﻿namespace Toolbar.SQL
+﻿namespace Gaming_Launcher.SQL
 {
-}
 
-namespace Toolbar
-{
-}
 
-namespace Toolbar
-{
-}
-
-namespace Toolbar
-{
-}
-
-namespace Toolbar
-{
-}
-
-namespace Toolbar
-{
+    partial class PfadeDataSet
+    {
+        partial class PfadeDataTable
+        {
+        }
+    }
 }

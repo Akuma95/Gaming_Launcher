@@ -10,6 +10,7 @@
         <TabControl Background="Transparent" BorderBrush="#00ACACAC">
             <TabItem Header="Programme">
                 <Grid Background="#00E5E5E5">
+                    <local:UCProgramme HorizontalAlignment="Left" Height="422" VerticalAlignment="Top" Width="794"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Notizen">

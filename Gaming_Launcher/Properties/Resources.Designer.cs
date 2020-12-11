@@ -61,7 +61,7 @@ namespace Gaming_Launcher.Properties {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die fdd ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Akuma\source\repos\Gaming_Launcher\Gaming_Launcher\Pfade.mdf;Integrated Security=True;Connect Timeout=30 ähnelt.
         /// </summary>
         internal static string Connection {
             get {

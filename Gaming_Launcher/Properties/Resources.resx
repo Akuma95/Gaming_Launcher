@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Connection" xml:space="preserve">
-    <value>fdd</value>
+    <value>Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Akuma\source\repos\Gaming_Launcher\Gaming_Launcher\Pfade.mdf;Integrated Security=True;Connect Timeout=30</value>
   </data>
 </root>
