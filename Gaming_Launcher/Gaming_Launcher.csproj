@@ -187,6 +187,9 @@
     <Compile Include="UC\UCProgramme.xaml.cs">
       <DependentUpon>UCProgramme.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UC\UCSettings.xaml.cs">
+      <DependentUpon>UCSettings.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Widgets\discord.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -215,6 +218,10 @@
     <Page Include="UC\UCProgramme.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UC\UCSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
@@ -289,6 +296,21 @@
     <Resource Include="Assets\UCProgramme\Settings.png" />
     <Resource Include="Assets\UCProgramme\Tools.png" />
     <Resource Include="Assets\UCProgramme\Launcher.png" />
+    <Resource Include="Assets\UCProgramme\btn\amongUs.jpg" />
+    <Resource Include="Assets\UCProgramme\btn\blender.png" />
+    <Resource Include="Assets\UCProgramme\btn\blizzard.jpg" />
+    <Resource Include="Assets\UCProgramme\btn\deadByDaylight.jpg" />
+    <Resource Include="Assets\UCProgramme\btn\epicGames.png" />
+    <Resource Include="Assets\UCProgramme\btn\notepad++.png" />
+    <Resource Include="Assets\UCProgramme\btn\origin.jpg" />
+    <Resource Include="Assets\UCProgramme\btn\overwatch.png" />
+    <Resource Include="Assets\UCProgramme\btn\phpstorm.jpg" />
+    <Resource Include="Assets\UCProgramme\btn\rockstar.jpg" />
+    <Resource Include="Assets\UCProgramme\btn\satisfactory.jpg" />
+    <Resource Include="Assets\UCProgramme\btn\steam.jpg" />
+    <Resource Include="Assets\UCProgramme\btn\ubisoft.jpg" />
+    <Resource Include="Assets\UCProgramme\btn\vs2019.png" />
+    <Resource Include="Assets\UCProgramme\btn\vscode.jpg" />
     <Content Include="Launcher.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

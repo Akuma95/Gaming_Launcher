@@ -16,13 +16,23 @@ using System.Windows.Shapes;
 namespace Gaming_Launcher.UC
 {
     /// <summary>
-    /// Interaktionslogik für MainControll.xaml
+    /// Interaktionslogik für UCSettings.xaml
     /// </summary>
-    public partial class MainControl : UserControl
+    public partial class UCSettings : UserControl
     {
-        public MainControl()
+        public UCSettings()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click_Save(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_Delete(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

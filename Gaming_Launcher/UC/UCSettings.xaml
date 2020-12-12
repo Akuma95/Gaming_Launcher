@@ -1,0 +1,132 @@
+﻿<UserControl x:Class="Gaming_Launcher.UC.UCSettings"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Gaming_Launcher.UC"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Programme" IsSelected="True">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="115*"/>
+                        <RowDefinition Height="174*"/>
+                        <RowDefinition Height="133*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Rectangle Fill="#FF17A800" Stroke="Black" HorizontalAlignment="Left" Width="50" Height="50" VerticalAlignment="Top"/>
+                    <Rectangle Fill="#FF17A800" Stroke="Black" Margin="50,0,0,0" HorizontalAlignment="Left" Width="50" Height="50" VerticalAlignment="Top"/>
+                    <Rectangle Fill="#FF17A800" Stroke="Black" Margin="100,0,0,0" HorizontalAlignment="Left" Width="49" Height="50" VerticalAlignment="Top"/>
+                    <Rectangle Fill="#FF17A800" Stroke="Black" Margin="149,0,0,0" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50"/>
+                    <Rectangle Fill="#FF17A800" Stroke="Black" Margin="0,50,0,0" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50"/>
+                    <Rectangle Fill="#FF17A800" Stroke="Black" Margin="50,50,0,0" HorizontalAlignment="Left" Width="50" Height="50" VerticalAlignment="Top"/>
+                    <Rectangle Fill="#FF17A800" Stroke="Black" Margin="100,50,0,0" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left" Width="49"/>
+                    <Rectangle Fill="#FF17A800" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Margin="149,50,0,0"/>
+                    <RadioButton Margin="0,1,0,0" RenderTransformOrigin="4.996,0.43" GroupName="games" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="0,50,0,0" RenderTransformOrigin="4.996,0.43" GroupName="games" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="49,1,0,0" RenderTransformOrigin="4.996,0.43" GroupName="games" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="49,50,0,0" RenderTransformOrigin="4.996,0.43" GroupName="games" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="99,1,0,0" RenderTransformOrigin="4.996,0.43" GroupName="games" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="99,50,0,0" RenderTransformOrigin="4.996,0.43" GroupName="games" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="149,1,0,0" RenderTransformOrigin="4.996,0.43" GroupName="games" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="149,50,0,0" RenderTransformOrigin="4.996,0.43" GroupName="games" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <ComboBox HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="179" Height="118">
+                        <Image Source="/Gaming_Launcher;component/Assets/UCProgramme/btn/immortals.jpg" Height="170" Width="170"/>
+                        <Image Source="/Gaming_Launcher;component/Assets/UCProgramme/btn/legion.jpg" Height="170" Width="170"/>
+                        <Image Source="/Gaming_Launcher;component/Assets/UCProgramme/btn/valhalla.jpg" Height="170" Width="170"/>
+                        <Image Source="/Gaming_Launcher;component/Assets/UCProgramme/btn/spaceEngineers.jpg" Height="170" Width="170"/>
+                    </ComboBox>
+                    <Rectangle Fill="#FF8A00BD" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Grid.Column="1"/>
+                    <Rectangle Fill="#FF8A00BD" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Margin="50,0,0,0" Grid.Column="1"/>
+                    <Rectangle Fill="#FF8A00BD" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="49" Margin="100,0,0,0" Grid.Column="1"/>
+                    <Rectangle Fill="#FF8A00BD" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Margin="149,0,0,0" Grid.Column="1"/>
+                    <Rectangle Fill="#FF8A00BD" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Margin="0,50,0,0" Grid.Column="1"/>
+                    <Rectangle Fill="#FF8A00BD" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Margin="50,50,0,0" Grid.Column="1"/>
+                    <Rectangle Fill="#FF8A00BD" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="49" Margin="100,50,0,0" Grid.Column="1"/>
+                    <Rectangle Fill="#FF8A00BD" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Margin="149,50,0,0" Grid.Column="1"/>
+                    <RadioButton Margin="0,1,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="1" GroupName="programm" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="0,50,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="1" GroupName="programm" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="49,1,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="1" GroupName="programm" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="49,50,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="1" GroupName="programm" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="99,1,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="1" GroupName="programm" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="99,50,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="1" GroupName="programm" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="149,1,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="1" GroupName="programm" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="149,50,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="1" GroupName="programm" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <Rectangle Fill="#FF0000B0" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Grid.Column="2"/>
+                    <Rectangle Fill="#FF0000B0" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Margin="50,0,0,0" Grid.Column="2"/>
+                    <Rectangle Fill="#FF0000B0" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="49" Margin="100,0,0,0" Grid.Column="2"/>
+                    <Rectangle Fill="#FF0000B0" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Margin="149,0,0,0" Grid.Column="2" Grid.ColumnSpan="2"/>
+                    <Rectangle Fill="#FF0000B0" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Margin="0,50,0,0" Grid.Column="2"/>
+                    <Rectangle Fill="#FF0000B0" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Margin="50,50,0,0" Grid.Column="2"/>
+                    <Rectangle Fill="#FF0000B0" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="49" Margin="100,50,0,0" Grid.Column="2"/>
+                    <Rectangle Fill="#FF0000B0" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Margin="149,50,0,0" Grid.Column="2" Grid.ColumnSpan="2"/>
+                    <RadioButton Margin="0,1,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="2" GroupName="tools" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="0,50,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="2" GroupName="tools" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="49,1,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="2" GroupName="tools" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="49,50,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="2" GroupName="tools" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="99,1,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="2" GroupName="tools" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="99,50,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="2" GroupName="tools" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="149,1,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="2" GroupName="tools" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="149,50,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="2" GroupName="tools" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <Rectangle Fill="#FF360078" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Grid.Column="3"/>
+                    <Rectangle Fill="#FF360078" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Margin="50,0,0,0" Grid.Column="3"/>
+                    <Rectangle Fill="#FF360078" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="49" Margin="100,0,0,0" Grid.Column="3"/>
+                    <Rectangle Fill="#FF360078" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Margin="149,0,-1,0" Grid.Column="3"/>
+                    <Rectangle Fill="#FF360078" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Margin="0,50,0,0" Grid.Column="3"/>
+                    <Rectangle Fill="#FF360078" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Margin="50,50,0,0" Grid.Column="3"/>
+                    <Rectangle Fill="#FF360078" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="49" Margin="100,50,0,0" Grid.Column="3"/>
+                    <Rectangle Fill="#FF360078" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Margin="149,50,-1,0" Grid.Column="3"/>
+                    <RadioButton Margin="0,1,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="3" GroupName="launcher" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="0,50,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="3" GroupName="launcher" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="49,1,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="3" GroupName="launcher" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="49,50,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="3" GroupName="launcher" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="99,1,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="3" GroupName="launcher" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="99,50,0,0" RenderTransformOrigin="4.996,0.43" Grid.Column="3" GroupName="launcher" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="149,1,-1,0" RenderTransformOrigin="4.996,0.43" Grid.Column="3" GroupName="launcher" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <RadioButton Margin="149,50,-1,0" RenderTransformOrigin="4.996,0.43" Grid.Column="3" GroupName="launcher" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="10,133,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Verknüpfung" VerticalAlignment="Top" Width="179" HorizontalContentAlignment="Center"/>
+                    <Button x:Name="SaveGames" Content="Speichern" HorizontalAlignment="Left" Margin="10,6,0,0" Grid.Row="2" VerticalAlignment="Top" Width="179" Height="27" Click="Button_Click_Save" Background="#FF57BF00"/>
+                    <Button x:Name="DeleteGames" Content="Löschen" HorizontalAlignment="Left" Margin="10,53,0,0" Grid.Row="2" VerticalAlignment="Top" Width="179" Height="27" Click="Button_Click_Delete" Background="#FFBF0000"/>
+                    <ComboBox HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="179" Height="118" Grid.Column="1">
+                        <Image Source="/Gaming_Launcher;component/Assets/UCProgramme/btn/immortals.jpg" Height="170" Width="170"/>
+                        <Image Source="/Gaming_Launcher;component/Assets/UCProgramme/btn/legion.jpg" Height="170" Width="170"/>
+                        <Image Source="/Gaming_Launcher;component/Assets/UCProgramme/btn/valhalla.jpg" Height="170" Width="170"/>
+                        <Image Source="/Gaming_Launcher;component/Assets/UCProgramme/btn/spaceEngineers.jpg" Height="170" Width="170"/>
+                    </ComboBox>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="10,133,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Verknüpfung" VerticalAlignment="Top" Width="179" Grid.Column="1" HorizontalContentAlignment="Center"/>
+                    <Button x:Name="SaveProgramm" Content="Speichern" HorizontalAlignment="Left" Margin="10,6,0,0" Grid.Row="2" VerticalAlignment="Top" Width="179" Height="27" Click="Button_Click_Save" Background="#FF57BF00" Grid.Column="1"/>
+                    <Button x:Name="DeleteProgramm" Content="Löschen" HorizontalAlignment="Left" Margin="10,53,0,0" Grid.Row="2" VerticalAlignment="Top" Width="179" Height="27" Click="Button_Click_Delete" Background="#FFBF0000" Grid.Column="1"/>
+                    <ComboBox HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="179" Height="118" Grid.Column="2">
+                        <Image Source="/Gaming_Launcher;component/Assets/UCProgramme/btn/immortals.jpg" Height="170" Width="170"/>
+                        <Image Source="/Gaming_Launcher;component/Assets/UCProgramme/btn/legion.jpg" Height="170" Width="170"/>
+                        <Image Source="/Gaming_Launcher;component/Assets/UCProgramme/btn/valhalla.jpg" Height="170" Width="170"/>
+                        <Image Source="/Gaming_Launcher;component/Assets/UCProgramme/btn/spaceEngineers.jpg" Height="170" Width="170"/>
+                    </ComboBox>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="10,133,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Verknüpfung" VerticalAlignment="Top" Width="179" Grid.Column="2" HorizontalContentAlignment="Center"/>
+                    <Button x:Name="SaveTools" Content="Speichern" HorizontalAlignment="Left" Margin="10,6,0,0" Grid.Row="2" VerticalAlignment="Top" Width="179" Height="27" Click="Button_Click_Save" Background="#FF57BF00" Grid.Column="2"/>
+                    <Button x:Name="DeleteTools" Content="Löschen" HorizontalAlignment="Left" Margin="10,53,0,0" Grid.Row="2" VerticalAlignment="Top" Width="179" Height="27" Click="Button_Click_Delete" Background="#FFBF0000" Grid.Column="2"/>
+                    <ComboBox HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="179" Height="118" Grid.Column="3">
+                        <Image Source="/Gaming_Launcher;component/Assets/UCProgramme/btn/immortals.jpg" Height="170" Width="170"/>
+                        <Image Source="/Gaming_Launcher;component/Assets/UCProgramme/btn/legion.jpg" Height="170" Width="170"/>
+                        <Image Source="/Gaming_Launcher;component/Assets/UCProgramme/btn/valhalla.jpg" Height="170" Width="170"/>
+                        <Image Source="/Gaming_Launcher;component/Assets/UCProgramme/btn/spaceEngineers.jpg" Height="170" Width="170"/>
+                    </ComboBox>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="10,133,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Verknüpfung" VerticalAlignment="Top" Width="179" Grid.Column="3" HorizontalContentAlignment="Center"/>
+                    <Button x:Name="SaveLauncher" Content="Speichern" HorizontalAlignment="Left" Margin="10,6,0,0" Grid.Row="2" VerticalAlignment="Top" Width="179" Height="27" Click="Button_Click_Save" Background="#FF57BF00" Grid.Column="3"/>
+                    <Button x:Name="DeleteLauncher" Content="Löschen" HorizontalAlignment="Left" Margin="10,53,0,0" Grid.Row="2" VerticalAlignment="Top" Width="179" Height="27" Click="Button_Click_Delete" Background="#FFBF0000" Grid.Column="3"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</UserControl>

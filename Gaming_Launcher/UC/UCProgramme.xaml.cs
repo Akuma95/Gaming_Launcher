@@ -39,7 +39,7 @@ namespace Gaming_Launcher.UC
         {
             SqlConection conn = new SqlConection(Properties.Settings.Default.LauncherConnectionString);
             conn.Open();
-            DataTable dt = conn.GetDataTable("SELECT [btnName], [imgName], [ButtonLink].[kategorie], [img], [pfad] FROM [ButtonLink], [Game] WHERE game = name");
+            DataTable dt = conn.GetDataTable("SELECT [btnName], [imgName], [ButtonLink].[kategorie], [img], [pfad], [name] FROM [ButtonLink], [Game] WHERE game = name");
             foreach (DataRow row in dt.Rows)
             {
                 if (row[2].ToString() == "programm")
@@ -47,7 +47,8 @@ namespace Gaming_Launcher.UC
                     Button btn = (Button)this.FindName(row[0].ToString());
                     if (btn != null)
                     {
-                        btn.ToolTip = row[4].ToString();
+                        btn.Tag = row[4].ToString();
+                        btn.ToolTip = row[5].ToString();
                     }
                     Image img = (Image)this.FindName(row[1].ToString());
                     FileInfo fi = new FileInfo(@"C:\Users\Akuma\source\repos\Gaming_Launcher\Gaming_Launcher\Assets\UCProgramme\btn\" + row.ItemArray[3].ToString());
@@ -63,7 +64,8 @@ namespace Gaming_Launcher.UC
                     Button btn = (Button)this.FindName(btnName);
                     if (btn != null)
                     {
-                        btn.ToolTip = row[4].ToString();
+                        btn.Tag = row[4].ToString();
+                        btn.ToolTip = row[5].ToString();
                     }
                     Image img = (Image)this.FindName(row[1].ToString());
                     FileInfo fi = new FileInfo(@"C:\Users\Akuma\source\repos\Gaming_Launcher\Gaming_Launcher\Assets\UCProgramme\btn\" + row.ItemArray[3].ToString());
@@ -79,7 +81,8 @@ namespace Gaming_Launcher.UC
                     Button btn = (Button)this.FindName(row[0].ToString());
                     if (btn != null)
                     {
-                        btn.ToolTip = row[4].ToString();
+                        btn.Tag = row[4].ToString();
+                        btn.ToolTip = row[5].ToString();
                     }
                     Image img = (Image)this.FindName(row[1].ToString());
                     FileInfo fi = new FileInfo(@"C:\Users\Akuma\source\repos\Gaming_Launcher\Gaming_Launcher\Assets\UCProgramme\btn\" + row.ItemArray[3].ToString());
@@ -94,7 +97,8 @@ namespace Gaming_Launcher.UC
                     Button btn = (Button)this.FindName(row[0].ToString());
                     if (btn != null)
                     {
-                        btn.ToolTip = row[4].ToString();
+                        btn.Tag = row[4].ToString();
+                        btn.ToolTip = row[5].ToString();
                     }
                     Image img = (Image)this.FindName(row[1].ToString());
                     FileInfo fi = new FileInfo(@"C:\Users\Akuma\source\repos\Gaming_Launcher\Gaming_Launcher\Assets\UCProgramme\btn\" + row.ItemArray[3].ToString());
@@ -109,7 +113,7 @@ namespace Gaming_Launcher.UC
         public void Btn_programm_click(object sender, RoutedEventArgs e)
         {
             Button btn = sender as Button;
-            var source = btn.ToolTip.ToString();
+            var source = btn.Tag.ToString();
             Process.Start(source);
         }
         private string GetBtnName(int btnNumber, string kategorie)
