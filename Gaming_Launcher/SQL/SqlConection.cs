@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SQLite;
 using System.Data.SqlClient;
 using System.Text;
 using System.Windows.Controls;
@@ -10,14 +11,14 @@ namespace Gaming_Launcher.SQL
 {
     class SqlConection
     {
-        public SqlConnection Connection
+        public SQLiteConnection Connection
         {
             get
             {
                 return this._con ?? this.Open();
             }
         }
-        private SqlConnection _con;
+        private SQLiteConnection _con;
         private readonly string _cs;
 
         public SqlConection(string cs)
@@ -25,9 +26,9 @@ namespace Gaming_Launcher.SQL
             _cs = cs;
         }
 
-        public SqlConnection Open(TextBlock feedbackLabel = null)
+        public SQLiteConnection Open(TextBlock feedbackLabel = null)
         {
-            this._con = new SqlConnection(this._cs);
+            this._con = new SQLiteConnection(this._cs);
             if (feedbackLabel != null)
             {
                 try
@@ -64,7 +65,7 @@ namespace Gaming_Launcher.SQL
             try
             {
                 DataTable dt = new DataTable();
-                SqlCommand sc = new SqlCommand(request, this._con);
+                SQLiteCommand sc = new SQLiteCommand(request, this._con);
                 dt.Load(sc.ExecuteReader());
                 return dt;
             }
@@ -76,7 +77,7 @@ namespace Gaming_Launcher.SQL
 
         public int SetData(string request, TextBlock feedbackLabel = null)
         {
-                SqlCommand sc = new SqlCommand(request, this._con);
+            SQLiteCommand sc = new SQLiteCommand(request, this._con);
                 sc.ExecuteNonQuery();
             try
             {
@@ -111,7 +112,7 @@ namespace Gaming_Launcher.SQL
         {
             try
             {
-                SqlCommand sc = new SqlCommand(request, this._con);
+                SQLiteCommand sc = new SQLiteCommand(request, this._con);
                 return sc.ExecuteNonQuery();
             }
             catch (Exception)

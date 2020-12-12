@@ -24,5 +24,15 @@ namespace Gaming_Launcher.UC
         {
             InitializeComponent();
         }
+
+        private void UCProgramme_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void UCProgramme_Loaded_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
